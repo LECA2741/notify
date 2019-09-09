@@ -1,11 +1,39 @@
 body{
     display: grid;
-    grid-template-areas: "nav nav nav nav"
-                          "header header header header"
-                          "section1 section1 section1 section1"
-                          "section2 section2 section2 section2"
-                          "section3 section3 section3 section3"
-                          "footer footer footer footer";
-    grid-template-columns: 33.33vw 33.33vw 33.33vw 33.33vw;
-    grid-template-rows: 1vh 60vh 35vh 50vh 55vh 10vh;
+    grid-template-areas: "nav nav nav"
+                          "header header header"
+                          "section1 section1 section1"
+                          "section2 section2 section2"
+                          "section3 section3 section3"
+                          "footer footer footer";
+    grid-template-columns: 33vw 33vw 33vw 33vw;
+    grid-template-rows: 2vh 82vh 47vh 62vh 66vh 13vh;
+}
+footer{
+    grid-area: footer;
+}
+header{
+    grid-area: header;
+    background-color: aqua;
+}
+nav{
+    grid-area: nav;
+    background-color: pink;
+    margin-top: 0;
+}
+
+section{
+grid-area: section1;
+background-color: blue;
+
+}
+
+.section2{
+    grid-area: section2;
+    background-color: brown;
+
+}
+.section3{
+    grid-area: section3;
+    background-color: blueviolet;
 }
