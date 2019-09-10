@@ -15,7 +15,12 @@ body{
        width: 0px; 
    }
    div{
-       padding: 150px;
+       padding: 50px;
+   }
+   .icone{
+       /* background-color:green; "para deixar o fundo do contorno verde" */
+       /* "border-radius:" para deixar redondo o contorno do icone*/
+
    }
 footer{
     grid-area: footer;
