@@ -1,5 +1,6 @@
 body{
     display: grid;
+     margin: 0;
     grid-template-areas: "nav nav nav"
                           "header header header"
                           "section1 section1 section1"
@@ -8,26 +9,37 @@ body{
                           "footer footer footer";
     grid-template-columns: 33vw 33vw 33vw 33vw;
     grid-template-rows: 2vh 82vh 47vh 62vh 66vh 13vh;
-}
+   }
+   body::-webkit-scrollbar{
+       /* sumir com o scrollbar (barrinha de rolar que fica embaixo ) */
+       width: 0px; 
+   }
+   div{
+       padding: 150px;
+   }
 footer{
     grid-area: footer;
+    background-color: black;
 }
 header{
     grid-area: header;
     background-color: aqua;
 }
+
 nav{
     grid-area: nav;
     background-color: pink;
-    margin-top: 0;
 }
 
 section{
-grid-area: section1;
-background-color: blue;
-
+    background-color: blue;
+   display: flex;
+    text-align: center;
+    grid-area: section1;
 }
-
+section img{
+    height:70px;
+}
 .section2{
     grid-area: section2;
     background-color: brown;
