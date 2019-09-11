@@ -18,29 +18,16 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
    }
-<<<<<<< HEAD
-   .f1 .f2 .f3 .f4 .f5 .f6{
-    color: white;
-    display: flex;
+ .footer {
+    color: rgb(158, 152, 152);
     
-}
-   .icone{
-        background-color:green; 
-       border-radius: 100%;
-
    }
-=======
-   
-   .icone{
-       background-color:rgb(23, 151, 23); 
-       /* Deixa o contorno do icone redondo  */
-       border-radius: 100%;
-       
-    }
->>>>>>> 7d360289add9cb3f0f08cd3b0c571e2e3d5a8a99
 footer{
     grid-area: footer;
-    background-color: black;
+    background-color: rgb(228, 225, 225);
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
 }
 header{
     grid-area: header;
@@ -53,14 +40,21 @@ nav{
 }
 
 section{
-    background-color: blue;
+    background-color: white;
    display: flex;
     text-align: center;
+    justify-content: flex-start;
     grid-area: section1;
 }
-section img{
-    height:70px;
-}
+.icone{
+       background-color:rgb(23, 151, 23); 
+       /* Deixa o contorno do icone redondo  */
+       border-radius: 100%;
+    }
+    div .icone{
+       width: 80px;
+       height: 80px; 
+    }
 .section2{
     grid-area: section2;
     background-color: brown;
@@ -71,11 +65,10 @@ section img{
     background-color: blueviolet;
 }
 @media(min-width:768px){
-<<<<<<< HEAD
+
     
 }
 @media(min-width:1024px, min-height:1074px){
-=======
->>>>>>> 7d360289add9cb3f0f08cd3b0c571e2e3d5a8a99
+
 
 }
