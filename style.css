@@ -14,9 +14,11 @@ body{
        /* sumir com o scrollbar (barrinha de rolar que fica embaixo ) */
        width: 0px; 
    }
-   div{
-       padding: 50px;
+   div h1, h2, h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
    }
+<<<<<<< HEAD
    .f1 .f2 .f3 .f4 .f5 .f6{
     color: white;
     display: flex;
@@ -27,6 +29,15 @@ body{
        border-radius: 100%;
 
    }
+=======
+   
+   .icone{
+       background-color:rgb(23, 151, 23); 
+       /* Deixa o contorno do icone redondo  */
+       border-radius: 100%;
+       
+    }
+>>>>>>> 7d360289add9cb3f0f08cd3b0c571e2e3d5a8a99
 footer{
     grid-area: footer;
     background-color: black;
@@ -60,8 +71,11 @@ section img{
     background-color: blueviolet;
 }
 @media(min-width:768px){
+<<<<<<< HEAD
     
 }
 @media(min-width:1024px, min-height:1074px){
+=======
+>>>>>>> 7d360289add9cb3f0f08cd3b0c571e2e3d5a8a99
 
 }
