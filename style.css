@@ -7,16 +7,17 @@ body{
                           "section2 section2 section2"
                           "section3 section3 section3"
                           "footer footer footer";
-    grid-template-columns: 33vw 33vw 33vw 33vw;
-    grid-template-rows: 2vh 82vh 47vh 62vh 66vh 13vh;
+    grid-template-columns: 33,3vw 33,3vw 33,3vw;
+    grid-template-rows: 0.6vh 40vh 28vh 35vh 40vh 10vh;
+    margin: 0;
    }
    body::-webkit-scrollbar{
        /* sumir com o scrollbar (barrinha de rolar que fica embaixo ) */
        width: 0px; 
    }
    div{
-       padding: 50px;
-   }
+    padding: 50px;
+    }
    .icone{
        /* background-color:green; "para deixar o fundo do contorno verde" */
        /* "border-radius:" para deixar redondo o contorno do icone*/
@@ -28,12 +29,38 @@ footer{
 }
 header{
     grid-area: header;
-    background-color: aqua;
+    background-image: url("images/banner.png");
+    background-size: cover;
 }
-
+header .description{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    padding-left: 130px;
+}
+header img{
+    float: right;
+    width: 65%;
+    padding-top: 72px;
+    padding-right: 70px;
+}
+header .mao{
+    float: right;
+    width: 50%;
+    height: 80%;
+}
+header .titulo{
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 14pt;
+    padding-left: 130px;
+    padding-top: 60px;
+    padding-bottom:0;
+}
 nav{
     grid-area: nav;
-    background-color: pink;
+    background-color: #2fcb70;
+    margin-top: 0;
 }
 
 section{
