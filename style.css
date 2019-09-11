@@ -18,8 +18,9 @@ body{
        padding: 50px;
    }
    .icone{
-       /* background-color:green; "para deixar o fundo do contorno verde" */
-       /* "border-radius:" para deixar redondo o contorno do icone*/
+       background-color:green; 
+       border-radius: 100%;
+       
 
    }
 footer{
@@ -53,4 +54,7 @@ section img{
 .section3{
     grid-area: section3;
     background-color: blueviolet;
+}
+@media(min-width:768px){
+
 }
