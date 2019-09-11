@@ -17,9 +17,14 @@ body{
    div{
        padding: 50px;
    }
+   .f1 .f2 .f3 .f4 .f5 .f6{
+    color: white;
+    display: flex;
+    
+}
    .icone{
-       /* background-color:green; "para deixar o fundo do contorno verde" */
-       /* "border-radius:" para deixar redondo o contorno do icone*/
+        background-color:green; 
+       border-radius: 100%;
 
    }
 footer{
@@ -53,4 +58,10 @@ section img{
 .section3{
     grid-area: section3;
     background-color: blueviolet;
+}
+@media(min-width:768px){
+    
+}
+@media(min-width:1024px, min-height:1074px){
+
 }
