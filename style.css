@@ -14,12 +14,16 @@ body{
        /* sumir com o scrollbar (barrinha de rolar que fica embaixo ) */
        width: 0px; 
    }
+   div h1, h2, h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+   }
    
    .icone{
        background-color:rgb(23, 151, 23); 
        /* Deixa o contorno do icone redondo  */
        border-radius: 100%;
-       padding: 150 154px;
+       
     }
 footer{
     grid-area: footer;
