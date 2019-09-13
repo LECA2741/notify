@@ -50,10 +50,14 @@ section{
        background-color:rgb(23, 151, 23); 
        /* Deixa o contorno do icone redondo  */
        border-radius: 100%;
+       margin: 0 5px;
     }
     div .icone{
-       width: 80px;
-       height: 80px; 
+        /* display: flex; */
+        width: 80px;
+       height: 80px;
+       
+        
     }
 .section2{
     grid-area: section2;
@@ -69,6 +73,4 @@ section{
     
 }
 @media(min-width:1024px, min-height:1074px){
-
-
-}
+} 
