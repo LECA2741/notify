@@ -6,37 +6,69 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Notify</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
    <nav>
 
    </nav>
    <header>
-
+         <div class="mao">
+             <img src="images/hand.png" alt="mao-segurando-celular">
+         </div>
+         <div class="titulo">
+             <h4>Notify</h4>
+         </div>
+         <div class="description">
+             <p>A great new free psd theme to showcase your
+                 new application.</p>
+         </div>
+         <div class="icons"> <!-- É ESSA QUE TA INTERFERINDO NAS CLASS DA SECTION1-->
+             <img src="images/icone-ios.png" alt="icone-ios">
+             <img src="images/icone-android.png" alt="icone-android">
+             <img src="images/icone-windows.png" alt="icone-windows">
+         </div>
    </header>
    
    <section>
        <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> -->
       
-      <div>
+      <div class="icones">
+         <!--essa é a div que agrupa TODOS os icones-->
       
-       <div class="icone"></div><img src="images/icone1.png" alt="Primeiro icone"></div> 
-        <h1>Editable Theme</h1>
-      </div>
-
-      <div>
-       <div class="icone"><img src="images/icone2.png" alt="Segundo icone"></div> 
-        <h2>Flat Design</h2>
-      </div>
+         <div class="icone">
+            <!--aqui eu nomeei a div com a classe ICONE para cada um individualmente,
+                                    assim como na linha 33 e 40-->
+            <div>  <!--aqui eu fiz uma div para isolar apenas a imagem, para que eu possa centraliza-la no fundo verde no CSS-->
+             
+               <img src="images/icone1.png" alt="Primeiro icone">
+            </div>
+            <h2>Editable Theme</h1>
+               <!--aqui eu agrupei o h2 dentro da div ICONE-->
+            </div>
       
-      <div>
-       <div class="icone"><img src="images/icone3.png" alt="Terceiro icone"></div> 
-        <h3>Reach Your Audience</h3>
+         <div class="icone">
+            <!--aqui é a mesma div ICONE, da mesma forma-->
+            <div>
+               <img src="images/icone2.png" alt="Segundo icone">
+            </div>
+            <h2>Flat Design</h2>
+         </div>
+      
+         <div class="icone">
+            <div>
+               <img src="images/icone3.png" alt="Terceiro icone">
+            </div>
+            <h2>Reach Your Audience</h2>
+         </div>
+      
       </div>
-       
-   </section>
+   </section>           
+               
    <section class="section2">
-
+    <h2 class="subtitulo"> Get Notified of Any Updates</h2>
+    <p class="section2-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
    </section>
 
    <section class="section3">
