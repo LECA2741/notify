@@ -22,10 +22,20 @@ body{
        /* background-color:green; "para deixar o fundo do contorno verde" */
        /* "border-radius:" para deixar redondo o contorno do icone*/
 
+    div h1, h2, h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size:18px;
+   }
+ .footer {
+    color: rgb(158, 152, 152);
+    
    }
 footer{
     grid-area: footer;
-    background-color: black;
+    background-color: rgb(228, 225, 225);
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
 }
 header{
     grid-area: header;
@@ -74,14 +84,21 @@ nav{
 }
 
 section{
-    background-color: blue;
+    background-color: white;
    display: flex;
     text-align: center;
+    justify-content: flex-start;
     grid-area: section1;
 }
-section img{
-    height:70px;
-}
+.icone{
+       background-color:rgb(23, 151, 23); 
+       /* Deixa o contorno do icone redondo  */
+       border-radius: 100%;
+    }
+    div .icone{
+       width: 80px;
+       height: 80px; 
+    }
 .section2{
     grid-area: section2;
     background-color: brown;
@@ -90,4 +107,12 @@ section img{
 .section3{
     grid-area: section3;
     background-color: blueviolet;
+}
+@media(min-width:768px){
+        /* width: 35vw, heigth: ñ sei ainda */
+    
+}
+@media(min-width:1024px, min-height:1074px){
+
+
 }
