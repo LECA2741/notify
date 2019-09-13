@@ -18,11 +18,12 @@ body{
    div{
     padding: 50px;
     }
-   .icone{
+   /* .icone{
        /* background-color:green; "para deixar o fundo do contorno verde" */
        /* "border-radius:" para deixar redondo o contorno do icone*/
 
-    div h1, h2, h3{
+   /* } */
+   div h1, h2, h3{
     font-family: 'Open Sans', sans-serif;
     font-size:18px;
    }
@@ -51,6 +52,7 @@ header .description{
     margin-block-end: -8em;
 }
 header img{
+    display: block;
     float: right;
     width: 57%;
     padding-bottom: 10px;
@@ -65,7 +67,7 @@ header .mao{
 header .titulo{
     color: white;
     font-family: 'Pacifico', cursive;
-    font-size: 14pt;
+    font-size: 18pt;
     padding-left: 130px;
     padding-top: 10px;
     padding-bottom:0;
@@ -99,11 +101,27 @@ section{
        width: 80px;
        height: 80px; 
     }
+
 .section2{
     grid-area: section2;
-    background-color: brown;
-
+    background-color: #e3e3e3;
+    display: block;
 }
+.section2-description{
+  padding-top: 10px;  
+}
+
+.section2-description, .subtitulo{
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 400px;
+    margin-left: 100px;
+}
+
+.subtitulo{
+    margin-top: 20px;
+}
+
 .section3{
     grid-area: section3;
     background-color: blueviolet;
@@ -112,7 +130,7 @@ section{
         /* width: 35vw, heigth: ñ sei ainda */
     
 }
-@media(min-width:1024px, min-height:1074px){
-
+@media(min-width:1024px){
+    /* min-height:1074px - NÃO DECLARAR O HEGHT NA "FORMULA", ESTAVA DANDO ERRO */
 
 }
