@@ -50,6 +50,10 @@ footer{
     display: flex;
     justify-content: space-around;
 }
+.frame{
+    display: flex;
+    align-items: flex-end;
+}
 input{
     margin-block-start: 29px;
     margin-left: -344px;
