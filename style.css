@@ -108,6 +108,8 @@ header .titulo{
     padding-left: 130px;
     padding-top: 10px;
     padding-bottom:0;
+    display: flex;
+    margin-bottom: -25px;
 }
 header .icons{    /* subitraí o'e' para não interferir mais na class icones da section*/
     width: 100px;
@@ -119,6 +121,11 @@ nav{
     grid-area: nav;
     background-color: #2fcb70;
     margin-top: 0;
+}
+
+.point{
+    color: #2fcb70;
+    padding-left: 2px;
 }
 
 section{
@@ -181,6 +188,8 @@ section{
 .social-icons{
     width: 28px;
     margin-left: 11px;
+    opacity: 0.4;
+
 }
 
 .section3{
@@ -200,7 +209,7 @@ section{
 }
 
 @media(min-width:768px){
-        /* width: 35vw, heigth: ñ sei ainda */
+
     
 }
 
