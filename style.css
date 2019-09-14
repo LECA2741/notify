@@ -8,7 +8,7 @@ body{
                           "section3 section3 section3"
                           "footer footer footer";
     grid-template-columns: 33,3vw 33,3vw 33,3vw;
-    grid-template-rows: 0.6vh 43vh 28vh 55vh 40vh 10vh;
+    grid-template-rows: 0.6vh 43vh 28vh 55vh 60vh 10vh;
     margin: 0;
    }
    body::-webkit-scrollbar{
@@ -173,9 +173,25 @@ section{
     margin-top: 40px;
 }
 
+.subtitle-contato, .description-contato{
+    margin-bottom: 
+}
+.social-media{
+
+}    
+
+.social-icons{
+    width: 28px;
+    margin-left: 11px;
+    margin-bottom: -177px
+
+}
+
 .section3{
     grid-area: section3;
     background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
 }
 @media(min-width:768px){
         /* width: 35vw, heigth: ñ sei ainda */
