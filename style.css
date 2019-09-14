@@ -8,12 +8,26 @@ body{
                           "section3 section3 section3"
                           "footer footer footer";
     grid-template-columns: 33,3vw 33,3vw 33,3vw;
-    grid-template-rows: 0.6vh 55vh 28vh 35vh 40vh 10vh;
+    grid-template-rows: 0.6vh 33vh 28vh 40vh 40vh 10vh;
     margin: 0;
    }
    body::-webkit-scrollbar{
        /* sumir com o scrollbar (barrinha de rolar que fica embaixo ) */
        width: 0px; 
+   }
+   button{
+    background-color: #2fcb70;
+    color: white;
+    border-style: initial;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15pt;
+    height: 48px;
+    width: 80px;
+    border-radius: 10px;
+    margin: -15px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    padding-bottom: 5px
    }
    
    /* .icone{
@@ -35,6 +49,17 @@ footer{
     height: 250px;
     display: flex;
     justify-content: space-around;
+}
+input{
+    margin-block-start: 29px;
+    margin-left: -344px;
+    border-style: initial;
+    height: 45px;
+    padding-left: 10px;
+    text-indent: 14px;
+    border-radius: 10px;
+    border-bottom-style: outset;
+    border-bottom-width: 1px;
 }
 header{
     grid-area: header;
@@ -58,9 +83,10 @@ header img{
 }
 header .mao{
     float: right;
-    width: 50%;
+    width: 45%;
     height: 80%;
-
+    padding-top: 30px;
+    padding-right: 40px
 }
 header .titulo{
     color: white;
@@ -73,9 +99,8 @@ header .titulo{
 header .icons{    /* subitraí o'e' para não interferir mais na class icones da section*/
     width: 100px;
     display: flex;  /*  <-----*/
-    align-items: center;  /*  <-----   ELES NÃO TEM EFEITO NO CÓDIGO*/
+  /*  <-----   ELES NÃO TEM EFEITO NO CÓDIGO*/
     padding-left: 130px;
-    margin-right: -7px;    /*  <-----*/
 }
 nav{
     grid-area: nav;
@@ -115,8 +140,6 @@ section{
     /* height: 100%; */;;;;;;; /* só descomentar esse depois que a class '.icones' do header não interferir mais na da section1*/
 }
         
-   
-
 .section2{
     grid-area: section2;
     background-color: #e3e3e3;
@@ -134,7 +157,7 @@ section{
 }
 
 .subtitulo{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .section3{
@@ -146,8 +169,8 @@ section{
     
 }
 
-@media(min-width:1024px, min-height:1074px){
-} 
+/* @media(min-width:1024px, min-height:1074px){
+}  */
 
 @media(min-width:1024px){
     /* min-height:1074px - NÃO DECLARAR O HEGHT NA "FORMULA", ESTAVA DANDO ERRO */
