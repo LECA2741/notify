@@ -8,7 +8,7 @@ body{
                           "section3 section3 section3"
                           "footer footer footer";
     grid-template-columns: 33,3vw 33,3vw 33,3vw;
-    grid-template-rows: 0.6vh 33vh 28vh 40vh 40vh 10vh;
+    grid-template-rows: 0.6vh 43vh 28vh 55vh 40vh 10vh;
     margin: 0;
    }
    body::-webkit-scrollbar{
@@ -50,9 +50,18 @@ footer{
     display: flex;
     justify-content: space-around;
 }
-.frame{
-    display: flex;
-    align-items: flex-end;
+.frame2{
+    /* width: 200px;
+    height: 150px;
+    float: right;
+    margin-top: -154px;
+    margin-right: 5%;    */
+    width: 310px;
+    height: 239px;
+    float: right;
+    margin-top: -212px;
+    margin-right: 5%;
+    border-radius: 7px;
 }
 input{
     margin-block-start: 29px;
