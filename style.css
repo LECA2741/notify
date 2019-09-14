@@ -173,26 +173,32 @@ section{
     margin-top: 40px;
 }
 
-.subtitle-contato, .description-contato{
-    margin-bottom: 
+.social-section{
+    justify-content: space-evenly;
+    margin-block-start: 190px;
 }
-.social-media{
-
-}    
 
 .social-icons{
     width: 28px;
     margin-left: 11px;
-    margin-bottom: -177px
-
 }
 
 .section3{
     grid-area: section3;
-    background-color: blueviolet;
+    background-color: rgb(247, 239, 239);
     display: flex;
     flex-direction: column;
 }
+.subtitle-contato{
+    font-family: 'Open Sans', sans-serif;
+}
+.description-contato{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    font-weight: 12;
+    color: rgb(158, 152, 152)
+}
+
 @media(min-width:768px){
         /* width: 35vw, heigth: ñ sei ainda */
     
