@@ -46,16 +46,11 @@ body{
 footer{
     grid-area: footer;
     background-color: rgb(228, 225, 225);
-    height: 250px;
+    height: 80px;
     display: flex;
     justify-content: space-around;
 }
 .frame2{
-    /* width: 200px;
-    height: 150px;
-    float: right;
-    margin-top: -154px;
-    margin-right: 5%;    */
     width: 310px;
     height: 239px;
     float: right;
@@ -84,9 +79,7 @@ header .description{
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
-    padding-left: 130px;
-    /* margin-block-start: -6em;
-    margin-block-end: -8em; */
+    margin-left: 132px;
 }
 header img{
     display: block;
@@ -112,10 +105,9 @@ header .titulo{
     display: flex;
     margin-bottom: -25px;
 }
-header .icons{    /* subitraí o'e' para não interferir mais na class icones da section*/
+header .icons{  
     width: 100px;
-    display: flex;  /*  <-----*/
-  /*  <-----   ELES NÃO TEM EFEITO NO CÓDIGO*/
+    display: flex;
     padding-left: 130px;
 }
 nav{
@@ -209,7 +201,7 @@ section{
     color: rgb(158, 152, 152)
 }
 
-@media(min-width:768px){
+@media(min-width:769px){
 
     .frame2{
         width: 350px;
@@ -239,39 +231,7 @@ section{
     
 }
 
-@media(min-width:1024px){
+/* @media(min-width:1024px){
     /* min-height:1074px - NÃO DECLARAR O HEGHT NA "FORMULA", ESTAVA DANDO ERRO */
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* } * */
