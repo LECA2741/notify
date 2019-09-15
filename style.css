@@ -271,3 +271,20 @@ section{
         margin-left: -670px;
     }
 }
+
+@media(min-width:1040px){
+    .frame2{
+        width: 565px;
+        height: 345px;
+        margin-right: 10%;
+        margin-top: -175px;
+    }
+
+    input{
+        margin-left: -1006px;
+    }
+
+    .section2-description {
+        padding-right: 265px;
+    }
+}
