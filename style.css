@@ -270,6 +270,14 @@ section{
     .input{
         margin-left: -670px;
     }
+
+    .pessoas{
+        padding-top: 30px;
+    }
+
+    .social-section{
+        margin-bottom: 30px;
+    }
 }
 
 @media(min-width:1040px){
