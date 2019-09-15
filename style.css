@@ -63,6 +63,7 @@ footer{
     margin-right: 5%;
     border-radius: 7px;
 }
+
 input{
     margin-block-start: 29px;
     margin-left: -344px;
@@ -210,11 +211,33 @@ section{
 
 @media(min-width:768px){
 
+    .frame2{
+        width: 350px;
+        height: 252px;
+        margin-right: 11%;
+    }
+    .header img {
+        display: block;
+        width: 39%;
+        float: right;
+        padding-right: 54px;
+    }
+
+    header .mao {
+        float: right;
+        width: 31%;
+        padding-top: 30px;
+        padding-right: 200px;
+    }
+
+    input{
+        margin-left: -591px;
+    }
+    .section2-description{
+        margin-right: 581px;
+    }   
     
 }
-
-/* @media(min-width:1024px, min-height:1074px){
-}  */
 
 @media(min-width:1024px){
     /* min-height:1074px - NÃO DECLARAR O HEGHT NA "FORMULA", ESTAVA DANDO ERRO */
