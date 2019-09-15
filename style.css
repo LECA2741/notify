@@ -91,7 +91,7 @@ header .description{
 header img{
     display: block;
     float: right;
-    width: 47%;
+    width: 52%;
     padding-bottom: 10px;
     padding-right: 38px;
 }
@@ -159,6 +159,10 @@ section{
     justify-content: center;
     /* height: 100%; */;;;;;;; /* só descomentar esse depois que a class '.icones' do header não interferir mais na da section1*/
 }
+
+.pessoas{
+    padding-top: 15px;
+}
         
 .section2{
     grid-area: section2;
@@ -182,7 +186,7 @@ section{
 
 .social-section{
     justify-content: space-evenly;
-    margin-block-start: 190px;
+    margin-block-start: 15px;
 }
 
 .social-icons{
@@ -194,7 +198,7 @@ section{
 
 .section3{
     grid-area: section3;
-    background-color: rgb(247, 239, 239);
+    background-color: white;
     display: flex;
     flex-direction: column;
 }
@@ -234,7 +238,7 @@ section{
 
     header .mao {
         float: right;
-        width: 31%;
+        width: 34%;
         padding-top: 30px;
         padding-right: 200px;
     }
@@ -244,11 +248,26 @@ section{
     }
     .section2-description{
         margin-right: 581px;
-    }   
-    
+    }       
 }
 
-/* @media(min-width:1024px){
-    /* min-height:1074px - NÃO DECLARAR O HEGHT NA "FORMULA", ESTAVA DANDO ERRO */
+@media(min-width:1024px){
 
-/* } * */
+    .frame2{
+        width: 449px;
+        height: 263px;
+        margin-right: 8%;
+        margin-top: -198px;
+    }
+        
+    header .mao {
+        float: right;
+        width: 35%;
+        padding-top: 30px;
+        padding-right: 200px;
+    }
+
+    .input{
+        margin-left: -670px;
+    }
+}
