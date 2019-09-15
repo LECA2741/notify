@@ -1,3 +1,6 @@
+.autor{
+    font-family: 'Open Sans', sans-serif;
+}
 body{
     display: grid;
      margin: 0;
@@ -8,7 +11,7 @@ body{
                           "section3 section3 section3"
                           "footer footer footer";
     grid-template-columns: 33,3vw 33,3vw 33,3vw;
-    grid-template-rows: 0.6vh 43vh 28vh 55vh 60vh 10vh;
+    grid-template-rows: 0.6vh 45vh 28vh 65vh 65vh 10vh;
     margin: 0;
    }
    body::-webkit-scrollbar{
@@ -50,6 +53,10 @@ footer{
     display: flex;
     justify-content: space-around;
 }
+
+.foto{
+    width: 40px;
+}
 .frame2{
     width: 310px;
     height: 239px;
@@ -84,7 +91,7 @@ header .description{
 header img{
     display: block;
     float: right;
-    width: 57%;
+    width: 47%;
     padding-bottom: 10px;
     padding-right: 38px;
 }
@@ -193,6 +200,16 @@ section{
 }
 .subtitle-contato{
     font-family: 'Open Sans', sans-serif;
+}
+
+.testemunho{
+    font-size: 10pt;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 12;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+    font-style: italic;
 }
 .description-contato{
     font-family: 'Open Sans', sans-serif;
